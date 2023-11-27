@@ -343,4 +343,30 @@ footer {
     display: flex;
     flex-direction: column; }
     main .contacto-formulario iframe {
-      display: none; } }
+      display: none; }
+  main h1 {
+    color: #00c3ff; } }
+
+@media screen and (max-width: 420px) {
+  .log {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 100px; }
+  h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 20px;
+    color: white;
+    text-align: center; }
+  nav ul {
+    flex-direction: column; }
+  .navbar-link {
+    margin: 10px 0px; }
+  .cards {
+    flex-direction: column; }
+  .button-up {
+    right: 90%; }
+  .small-text {
+    width: 100%; }
+  .small-text-right {
+    width: 50%; } }
