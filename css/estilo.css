@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 * {
   font-family: "Poppins", sans-serif;
@@ -15,24 +14,9 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
-header .volver {
-  text-decoration: none; }
-
 header .nav-link {
-  /* Barra de navegaciòn lista */
   color: white;
-  font-family: "Montserrat", sans-serif; }
-
-header .navbar-toggler {
-  color: blue; }
-
-header .log {
-  margin-top: -40px;
-  padding: 10px; }
-
-header .logo {
-  width: 50px;
-  height: 50px; }
+  font-family: 'Montserrat', sans-serif; }
 
 header .imagen {
   width: 200px;
@@ -355,18 +339,6 @@ footer {
     bottom: 100px; }
   h1 {
     font-family: "Abril Fatface", serif;
-    font-size: 20px;
+    font-size: 10px;
     color: white;
-    text-align: center; }
-  nav ul {
-    flex-direction: column; }
-  .navbar-link {
-    margin: 10px 0px; }
-  .cards {
-    flex-direction: column; }
-  .button-up {
-    right: 90%; }
-  .small-text {
-    width: 100%; }
-  .small-text-right {
-    width: 50%; } }
+    text-align: center; } }
