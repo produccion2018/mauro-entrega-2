@@ -133,8 +133,8 @@ header .camara {
 
 header .tex {
   padding: 2rem;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  color: #ffffff; }
 
 header .text-box {
   color: white;
@@ -157,8 +157,7 @@ header .cuadrado {
 .parrafoDos {
   text-align: center;
   width: 500px;
-  height: 250px;
-  border: solid blue 3px;
+  height: 300px;
   padding: 10px;
   margin: 1rem auto; }
   .parrafoDos .parrafo-p {
