@@ -102,7 +102,7 @@ main {
     margin-bottom: 15px;
     transition: all 0.3s ease; }
   .pie .pie-link ul li a:hover {
-    color: blue;
+    color: gray;
     padding-left: 6px; }
   .pie .social-link {
     padding: 0.1px;
@@ -113,56 +113,65 @@ main {
 /* Sobre mi*/
 header h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   font-family: "Montserrat", sans-serif;
   color: white; }
 
 header h3:hover {
-  color: blue; }
+  color: orangered; }
 
 header .wpro {
   display: flex;
   justify-content: center;
   margin-left: 4rem; }
 
-header .camara {
-  width: 200px;
-  height: 200px;
+header .mao {
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  border: 5px solid; }
+  border: 5px solid chocolate; }
 
-header .tex {
-  padding: 2rem;
-  font-family: "Poppins", sans-serif;
-  color: #ffffff; }
-
-header .text-box {
-  color: white;
-  font-family: "Abril Fatface", serif;
-  font-size: 20px;
-  padding: 10px;
-  opacity: 0.5; }
-
-header .text {
-  color: white; }
-
-header .cuadrado {
-  width: 400px;
-  height: 300px;
-  margin: auto;
+header .texto-1 {
   padding: 1rem;
-  background-image: none;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
   color: #ffffff; }
 
-.parrafoDos {
+header .baner {
   text-align: center;
-  width: 500px;
-  height: 300px;
-  padding: 10px;
-  margin: 1rem auto; }
-  .parrafoDos .parrafo-p {
-    font-family: "Inconsolata", monospace;
-    color: #ffffff; }
+  padding: 1rem; }
+
+header .inf {
+  width: 150px;
+  height: 150px;
+  background-color: #24262b;
+  border: 5px solid orangered;
+  opacity: 0.6; }
+
+.tex-3 {
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 30px;
+  font-family: "Abril Fatface", serif; }
+
+.tex-3:hover {
+  color: orangered; }
+
+.d-flex {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 15px;
+  opacity: 0.6; }
+  .d-flex .icono {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%; }
+  .d-flex .mt-0 {
+    color: #24262b;
+    font-size: 15px;
+    font-weight: normal; }
 
 /* Blog*/
 .container {
